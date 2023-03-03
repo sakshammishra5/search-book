@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Open Library Files</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="design.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="page-title">Open Library Files</h1>
+  <form id="search-form">
+    <label class="search-input" for="search-input">Search for a book:</label>
+    <input type="text" id="search-input" name="search" required>
+    <button id="search-btn" type="submit">Search</button>
+  </form>
+
+  <div class="loader" id="spinner"></div>
+
+<div id="book-Area">
+  <div id="file-container" class="file-container"></div>
+
+  <div class="sidebar">
+    <h2>Subjects</h2>
+    <ul id="subjects-list">
+      <li><a href="#" id="history">History</a></li>
+      <li><a href="#" id="geography">Geography</a></li>
+      <li><a href="#" id="maths">Maths</a></li>
+      <li><a href="#" id="science">Science</a></li>
+    </ul>
+  </div>
+</div>
+
+  <span id="pagination">
+    <button class="pagination-btn" id="prev-button">Previous</button>
+    <button class="pagination-btn" id="next-button">Next</button>
+  </span>
+
+  <script src="index.js"></script>
+</body>
+</html>
