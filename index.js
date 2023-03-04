@@ -2,9 +2,6 @@
 const spinner = document.getElementById('spinner');
 spinner.style.display = 'none';
 
-// if(spinner.style.display === 'none'){
-//   fileContainer.style.display='none'
-// }
 // Fetch data from Open Library API based on search query
 function fetchData(query) {
     const url = `https://openlibrary.org/search.json?q=${query}`;
