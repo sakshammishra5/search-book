@@ -197,6 +197,6 @@ function renderSubject(files) {
     });
   }
 ```
-![alt text](https://imgur.com/a/G2heIsw)
+
 
 ###End
