@@ -1,4 +1,4 @@
-#Search Book App
+# Search Book App
 This repository contains code for a simple book search application built using HTML, CSS, and JavaScript and the Google Books API. The live version of this app can be accessed at https://sakshammishra5.github.io/search-book/.
 
 Table of Contents
