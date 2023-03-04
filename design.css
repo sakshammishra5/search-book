@@ -18,3 +18,8 @@ html{
     font-style: italic;
     font-weight: 500;
 }
+
+.pagination-btn{
+    background-color: #78BBF2;
+    font-weight: 700;
+}

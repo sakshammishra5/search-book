@@ -92,6 +92,7 @@ subjectslist.addEventListener("click",(e)=>{
 })
 
 function runfetch(searchString){
+  spinner.style.display = 'block';
     fetch(`http://openlibrary.org/subjects/${searchString}.json`)
     .then(res=>res.json())
     .then(data=>{
@@ -103,6 +104,9 @@ function runfetch(searchString){
     console.log(RecivedArray)
     console.log(RecivedArray[0].authors[0].name);
         renderSubject(RecivedArray)
+    })
+    .then(()=>{
+      spinner.style.display = 'none'
     })
 }
 

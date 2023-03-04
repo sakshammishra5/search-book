@@ -36,6 +36,7 @@ bottom:  0;
     height: 295px;
     margin-bottom: 10px;
     filter: brightness(150%) contrast(150%) saturation(150%);
+    border: 1px solid #9eb2b5;
   }
   
   .file h3 {
