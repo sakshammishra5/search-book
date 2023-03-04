@@ -76,9 +76,7 @@ function fetchData(query) {
   });
 
 
-
-
-
+  // Javascript for side panel subjects
 
 let subjectslist=document.querySelector("#subjects-list")
 let subjectArray=['history','geography','maths','science']
