@@ -6,7 +6,6 @@ This repository contains code for a simple book search application built using H
 
 **Table of Contents**
 
-[TOCM]
 
 #Usage
 #Functionality
