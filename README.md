@@ -7,27 +7,27 @@ This repository contains code for a simple book search application built using H
 **Table of Contents**
 
 
-#Usage
-#Functionality
-#Code Overview
+# Usage
+# Functionality
+# Code Overview
 
 
 ----
 
 
-###Usage
+### Usage
 
 > To use this app, simply open the live version at  https://search-book-theta.vercel.app/ in your web browser. Enter a search query in the search box and click the "Search" button to fetch book data from the Open Books API. The app will display a list of books matching the search query.
                     
 
-###Functionality
+### Functionality
 
 > This app allows users to search for books by title, author, or keyword. Upon entering a search query, the app fetches book data from the Open Books API and displays the results in a paginated list. Users can click on a book to view its details, including a description, cover image, and link to purchase or read the book online.
 
 
 
-###Code Overview & highlighting
-######HTML CODE
+### Code Overview & highlighting
+###### HTML CODE
 ```html
 <!DOCTYPE html>
 <html>
@@ -197,5 +197,5 @@ function renderSubject(files) {
   }
 ```
 
-
-###End
+# Thank You
+### End
